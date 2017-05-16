@@ -1,7 +1,7 @@
 # Explanation here: https://www.r-bloggers.com/web-scraping-javascript-rendered-sites/
 
 library(rvest)
-source("scrapeFunction.R")
+source("scrapeJs.R")
 
 site = "http://www.scoreboard.com/mlb/standings/" 
 output = "website.html"
