@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Explanation here: https://www.r-bloggers.com/web-scraping-javascript-rendered-sites/\n\nlibrary(rvest)\nsource(\"scrapeJs.R\")\n\nsite = \"http://www.scoreboard.com/mlb/standings/\" \noutput = \"website.html\"\n\nscrapeJs(siteName = site, outputName = output)\n\nwebsite = read_html(output) %>% \n  html_table()\n\nwebsite",
+    "created" : 1494960797917.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3327368669",
+    "id" : "E9677A0F",
+    "lastKnownWriteTime" : 1494957730,
+    "last_content_update" : 1494957730,
+    "path" : "C:/Users/Freddy Drennan/Desktop/scrapeJs/openMe.R",
+    "project_path" : "openMe.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
